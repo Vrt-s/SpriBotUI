@@ -257,3 +257,14 @@ video:focus {
 }
 
 /* ----------------------------------------------- */
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .widget {
+        width: 90%; /* Make it take up most of the screen width */
+        max-width: 400px; /* added to prevent it from becoming too large on very large mobile screens */
+        height: auto; /* Allow height to adjust based on content */
+        bottom: 10px; /* Adjust bottom position for mobile */
+        left: 5%; /* Center horizontally */
+        right: 5%; /* Center horizontally */
+        border-radius: 8px; /* Slightly smaller border radius for mobile */
+    }
+}
